@@ -22,7 +22,7 @@ function clock_Time() {
     dateTime.getSeconds() < 10 ? seconds.innerHTML = `0${dateTime.getSeconds()}`
         : seconds.innerHTML = dateTime.getSeconds();
     // AmOrPam
-    dateTime.getHours() > 12 ? amPm.innerHTML = "PM" : amPm.innerHTML = "AM"
+    dateTime.getHours() > 12 ? AmPm.innerHTML = "PM" : AmPm.innerHTML = "AM"
 
 }
 
